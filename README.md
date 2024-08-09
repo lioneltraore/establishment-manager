@@ -7,6 +7,7 @@ This is a solution that helps establishments to manage all they need.
 - [Gateway](#gateway)
 - [Discovery](#discovery)
 - [Config server](#config)
+- [Student service](#student)
 
 
 ## Gateway
@@ -20,6 +21,10 @@ This is a solution that helps establishments to manage all they need.
 ## Config server
 
 ![](./readme-assets/config-server-sb-generator.png)
+
+## Student service
+
+![](./readme-assets/student-sb-generator.png)
 
 ## Author
 
