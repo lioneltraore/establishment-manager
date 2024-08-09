@@ -5,15 +5,17 @@ This is a solution that helps establishments to manage all they need.
 ## Table of contents
 
 - [Gateway](#gateway)
-- [Coming soon...](#xx)
-- [Coming soon...](#xxx)
+- [Discovery](#discovery)
+- [Config server](#config)
 
 
 ## Gateway
 
 ![](./readme-assets/gateway-sb-generator.png)
 
+## Discovery
 
+![](./readme-assets/discovery-sb-generator.png)
 
 ## Author
 
