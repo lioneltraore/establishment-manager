@@ -17,6 +17,10 @@ This is a solution that helps establishments to manage all they need.
 
 ![](./readme-assets/discovery-sb-generator.png)
 
+## Config server
+
+![](./readme-assets/config-server-sb-generator.png)
+
 ## Author
 
 - Website - [Lionel Traore](https://lioneltraore.com)
