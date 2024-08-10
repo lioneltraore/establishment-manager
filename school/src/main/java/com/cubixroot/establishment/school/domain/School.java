@@ -1,11 +1,9 @@
 package com.cubixroot.establishment.school.domain;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Entity
 @Getter
@@ -15,6 +13,7 @@ import lombok.Setter;
 public class School {
 
     @Id
+    @GeneratedValue
     private Integer id;
     private String name;
     private String email;

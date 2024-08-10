@@ -14,8 +14,8 @@ public class SchoolService {
 
     private final SchoolRepository schoolRepository;
 
-    public void saveSchool(School student) {
-        schoolRepository.save(student);
+    public void saveSchool(School school) {
+        schoolRepository.save(school);
     }
 
     public List<School> findAllSchools() {

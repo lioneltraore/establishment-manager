@@ -10,8 +10,11 @@ This is a solution that helps establishments to manage all they need.
   - [Discovery](#discovery)
   - [Config server](#config)
   - [Student service](#student)
+  - [School service](#school)
 
 ## App Architecture
+
+![](./readme-assets/diagram.png)
 
 ## Spring Initialisr
 
@@ -30,6 +33,10 @@ This is a solution that helps establishments to manage all they need.
 ### Student service
 
 ![](./readme-assets/student-sb-generator.png)
+
+### School service
+
+![](./readme-assets/school-sb-generator.png)
 
 ## Author
 
