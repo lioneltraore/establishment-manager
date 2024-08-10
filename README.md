@@ -4,25 +4,30 @@ This is a solution that helps establishments to manage all they need.
 
 ## Table of contents
 
-- [Gateway](#gateway)
-- [Discovery](#discovery)
-- [Config server](#config)
-- [Student service](#student)
+- [App Architecture](#app-architecture)
+- [Services Spring Initialisr](#spring-initialisr)
+  - [Gateway](#gateway)
+  - [Discovery](#discovery)
+  - [Config server](#config)
+  - [Student service](#student)
 
+## App Architecture
 
-## Gateway
+## Spring Initialisr
+
+### Gateway
 
 ![](./readme-assets/gateway-sb-generator.png)
 
-## Discovery
+### Discovery
 
 ![](./readme-assets/discovery-sb-generator.png)
 
-## Config server
+### Config server
 
 ![](./readme-assets/config-server-sb-generator.png)
 
-## Student service
+### Student service
 
 ![](./readme-assets/student-sb-generator.png)
 
