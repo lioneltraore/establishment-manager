@@ -1,6 +1,7 @@
 package com.cubixroot.establishment.school.controller;
 
 import com.cubixroot.establishment.school.domain.School;
+import com.cubixroot.establishment.school.domain.dto.FullSchoolDTO;
 import com.cubixroot.establishment.school.service.SchoolService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -26,6 +27,11 @@ public class SchoolController {
     @GetMapping
     public ResponseEntity<List<School>> getSchool() {
         return ResponseEntity.ok(schoolService.findAllSchools());
+    }
+
+    @GetMapping("with-students/{schoolId}")
+    public FullSchoolDTO findSchoolWithStudents(@PathVariable Integer schoolId) {
+        return schoolService.findSchoolWithStudents(schoolId);
     }
 
 }
