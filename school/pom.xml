@@ -12,7 +12,7 @@
 	<artifactId>school</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>school</name>
-	<description>Student service</description>
+	<description>School service</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -51,6 +51,11 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
+		</dependency>
+
 
 		<dependency>
 			<groupId>org.postgresql</groupId>
