@@ -13,7 +13,6 @@ server:
 spring:
   application:
     name: school
-
   config:
     import: optional:configserver:http://localhost:8888
 
@@ -29,6 +28,7 @@ spring:
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
+
 application:
   config:
-    students-url:  http://localhost:8090/api/v1/students
+    students-url:  http://localhost:8222/api/v1/students
